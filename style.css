@@ -1,0 +1,43 @@
+.redSquare{
+    display: flex;
+    align-items: stretch;
+    background-color: red;
+}
+#photo {
+    height:auto;
+    max-width: 100%;
+}
+
+.boxOfThree{
+    flex: 2;
+    padding: 20;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: chartreuse;
+}
+#renifer{
+    height: 150px;
+    padding: 10px 10px 0px 0px;
+    border-radius: 50%;
+}
+.boxOnLeft{
+    flex: 1;
+    padding: 20px;
+}
+.articleTitle{
+    margin: 5px 5px;
+    font-size: 40px;
+    background-color: bisque;
+}
+.articleText{
+    margin: 5px 5px;
+    background-color: aquamarine;
+    font-size: 18px;
+}
+.icon{
+    margin: 5px 5px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center; 
+}
