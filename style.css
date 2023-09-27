@@ -1,43 +1,53 @@
-.redSquare{
-    display: flex;
-    align-items: stretch;
-    background-color: red;
-}
-#photo {
-    height:auto;
-    max-width: 100%;
+.container{
+    width: 25%;
+    min-width: 200px;
+    border: 3px;
+    border-color: rgb(190, 184, 184);
+    border-style: solid;
+    box-shadow: 4px 4px rgb(116, 113, 113);
+    background-color:darkblue;
 }
 
-.boxOfThree{
-    flex: 2;
-    padding: 20;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    background-color: chartreuse;
+#profilePic{
+    margin: center;
+    height: 100%;
+    width: 100%;
 }
-#renifer{
-    height: 150px;
-    padding: 10px 10px 0px 0px;
+h3{
+    margin-top: 1%;
+    text-align: center;
+}
+.informations{
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    color: aliceblue;
+}
+.info{
+    color:rgb(226, 207, 207)
+}
+#icon{
+    width: 20%;
     border-radius: 50%;
+    margin: 0% 5%;
 }
-.boxOnLeft{
-    flex: 1;
-    padding: 20px;
-}
-.articleTitle{
-    margin: 5px 5px;
-    font-size: 40px;
-    background-color: bisque;
-}
-.articleText{
-    margin: 5px 5px;
-    background-color: aquamarine;
-    font-size: 18px;
-}
-.icon{
-    margin: 5px 5px;
-    background-color: cadetblue;
+
+.friends {
     display: flex;
-    justify-content: center; 
+    align-items: center;
 }
+.border{
+    margin-left: 60%;
+    margin-top: 5%;
+    border: 2px;
+    border-radius: 3%;
+    border-color: lightsalmon;
+    border-style: solid;
+    background-color:lightsalmon;
+}
+
+.button{
+    text-align: center;
+    color: black;
+}
+
