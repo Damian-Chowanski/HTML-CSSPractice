@@ -1,0 +1,43 @@
+body{
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+.container{
+    width: 50%;
+    height: fit-content;
+    background-color: rgb(29, 29, 29);
+    display: block;
+    margin-left: 2%;
+}
+#photo{
+    width: 96%;
+    border-radius: 10px;
+    margin: 2% 2%;
+}
+.details {
+    display: flex;
+}
+.logo{
+    margin-left: 2%;
+    width: 20%;
+    height: 20%;
+    display: flex;
+
+}
+#logoImage{
+    border-radius: 50%;
+    width: 50%;
+}
+.blockWithText{
+    color: aliceblue;
+}
+.title{
+    
+    height: 20%;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 100%;
+    font-weight: 500;
+    margin-bottom: 10%;
+}
+
