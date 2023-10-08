@@ -27,6 +27,8 @@ body{
     width: 20%;
     display: flex;
     height: 50%;
+    min-width: 50px;
+    max-width: 100px;
     justify-content: center;
 }
 #logoImage{
@@ -39,6 +41,9 @@ body{
 }
 .title{
     height: auto;
+    display: flex;
+    min-height: 60px;
+    align-items: center;
 }
 .titleText{
     font-size: 160%;
